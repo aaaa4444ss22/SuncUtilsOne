@@ -1,5 +1,8 @@
 ﻿################################################################################
 # 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
 ################################################################################
-
-/.vs/SuncUtilsOne/v15
+/.vs
+/Core/bin/Debug
+/TestJt/bin/Debug
+/TestJt/obj/Debug
+/Core/obj/Debug
