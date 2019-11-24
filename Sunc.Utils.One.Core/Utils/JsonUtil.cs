@@ -1,12 +1,13 @@
-﻿using Core.Extensions;
+﻿
 using log4net;
 using Newtonsoft.Json;
+using Sunc.Utils.One.Core.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Core.Utils
+namespace Sunc.Utils.One.Core.Utils
 {
     /// <summary>
     /// Json序列化工具

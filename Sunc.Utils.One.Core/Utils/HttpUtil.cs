@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Net;
-using System.Net.Http;
 using System.Text;
 
-namespace Core.Utils
+namespace Sunc.Utils.One.Core.Utils
 {
     /// <summary>
     /// http网络工具

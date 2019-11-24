@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Core.Extensions
+namespace Sunc.Utils.One.Core.Extensions
 {
     public static class ObjectExtensions
     {

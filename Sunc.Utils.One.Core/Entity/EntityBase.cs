@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Sunc.Utils.Core.Entity;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Core.Entity
+namespace Sunc.Utils.One.Core.Entity
 {
     /// <summary>
     /// 基础类
