@@ -14,7 +14,7 @@ namespace Sunc.Utils.One.Core.Entity
         /// <summary>
         /// 通用载体
         /// </summary>
-        public object EntityObject { set; get; }
+        public object ObjectEntity { set; get; }
 
 
         public object Clone()

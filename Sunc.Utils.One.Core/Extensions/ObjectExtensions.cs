@@ -11,5 +11,10 @@ namespace Sunc.Utils.One.Core.Extensions
         {
             return entity != null;
         }
+
+        public static bool IsNull(this object entity)
+        {
+            return entity == null;
+        }
     }
 }
