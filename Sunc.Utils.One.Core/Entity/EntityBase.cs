@@ -1,4 +1,5 @@
 ﻿using Sunc.Utils.Core.Entity;
+using Sunc.Utils.One.Core.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,7 +25,7 @@ namespace Sunc.Utils.One.Core.Entity
 
         public string ToJson()
         {
-            throw new NotImplementedException();
+            return JsonUtil.ToJson(this);
         }
     }
 }
