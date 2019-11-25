@@ -25,7 +25,8 @@ namespace Sunc.Utils.One.Core.Entity
 
         public ResultObject(ResultStatus status, String message) : this(status)
         {
-            this.Message = message;
+            if (!string.IsNullOrEmpty(message))
+                this.Message = message;
         }
         /// <summary>
         /// 构造状态及载体数据

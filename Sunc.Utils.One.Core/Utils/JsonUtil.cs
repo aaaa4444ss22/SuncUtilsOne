@@ -1,6 +1,7 @@
 ﻿
 using log4net;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
 using Sunc.Utils.One.Core.Extensions;
 using System;
 using System.Collections.Generic;
@@ -23,7 +24,8 @@ namespace Sunc.Utils.One.Core.Utils
         {
             _settings = new JsonSerializerSettings
             {
-                ReferenceLoopHandling = ReferenceLoopHandling.Ignore
+                ReferenceLoopHandling = ReferenceLoopHandling.Ignore,
+                ContractResolver = new CamelCasePropertyNamesContractResolver()
             };
         }
 
