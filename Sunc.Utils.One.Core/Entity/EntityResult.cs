@@ -24,7 +24,7 @@ namespace Sunc.Utils.One.Core.Entity
             bool flag = false;
             switch (status)
             {
-                case ResultStatus.Successfully:
+                case ResultStatus.OK:
                     flag = true;
                     break;
             }

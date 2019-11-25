@@ -65,6 +65,7 @@
     <Compile Include="Utils\EnumUtil.cs" />
     <Compile Include="Utils\HttpUtil.cs" />
     <Compile Include="Utils\JsonUtil.cs" />
+    <Compile Include="Utils\ResultUtil.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

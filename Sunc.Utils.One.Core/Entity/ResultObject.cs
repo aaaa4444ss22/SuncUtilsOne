@@ -58,10 +58,10 @@ namespace Sunc.Utils.One.Core.Entity
 
         public override EntityResult CreateResult(bool assertion, string message, object objectEntity)
         {
-            ResultStatus status = ResultStatus.Error;
+            ResultStatus status = ResultStatus.InternalServerError;
             if (assertion)
             {
-                status = ResultStatus.Successfully;
+                status = ResultStatus.OK;
             }
             EntityResult result = new ResultObject(status);
             if (!string.IsNullOrEmpty(message))

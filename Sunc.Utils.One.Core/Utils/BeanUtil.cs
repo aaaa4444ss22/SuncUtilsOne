@@ -9,6 +9,7 @@ namespace Sunc.Utils.One.Core.Utils
 {
     public class BeanUtil
     {
+        private BeanUtil() { }
         /// <summary>
         /// 反射实现两个类的对象之间相同属性的值的复制
         /// 适用于初始化新实体

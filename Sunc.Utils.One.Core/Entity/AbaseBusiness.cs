@@ -62,6 +62,9 @@ namespace Sunc.Utils.One.Core.Entity
             return result;
         }
 
-
+        public EntityResult GetResult(ResultStatus resultStatus,string message = null,object objectEntity = null)
+        {
+            return new ResultObject(resultStatus,message,objectEntity);
+        }
     }
 }

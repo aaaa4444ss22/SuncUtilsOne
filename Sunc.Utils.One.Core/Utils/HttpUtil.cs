@@ -12,7 +12,7 @@ namespace Sunc.Utils.One.Core.Utils
     /// </summary>
     public class HttpUtil
     {
-
+        private HttpUtil() { }
         //public static string Get(string url)
         //{
         //    return Get(url,null);

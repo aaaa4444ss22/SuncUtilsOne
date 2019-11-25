@@ -10,6 +10,7 @@ namespace Sunc.Utils.One.Core.Utils
 {
     public class EnumUtil
     {
+        private EnumUtil() { }
         /// <summary>
         /// 获取枚举的描述
         /// </summary>
