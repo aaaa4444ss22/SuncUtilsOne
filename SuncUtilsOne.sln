@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sunc.Utils.One.Core", "Sunc.Utils.One.Core\Sunc.Utils.One.Core.csproj", "{DBDBE061-8713-487B-8D1F-459663E2DA39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestJs", "TestJs\TestJs.csproj", "{4C823765-E96A-48D0-8029-7309FD39FCB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{DBDBE061-8713-487B-8D1F-459663E2DA39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBDBE061-8713-487B-8D1F-459663E2DA39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBDBE061-8713-487B-8D1F-459663E2DA39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C823765-E96A-48D0-8029-7309FD39FCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C823765-E96A-48D0-8029-7309FD39FCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C823765-E96A-48D0-8029-7309FD39FCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C823765-E96A-48D0-8029-7309FD39FCB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

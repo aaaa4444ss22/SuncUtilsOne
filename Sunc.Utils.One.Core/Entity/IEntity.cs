@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Sunc.Utils.Core.Entity
+namespace Sunc.Utils.One.Core.Entity
 {
     /// <summary>
     /// 基础类接口

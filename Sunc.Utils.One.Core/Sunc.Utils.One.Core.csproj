@@ -54,8 +54,11 @@
     <Compile Include="Entity\EntityResult.cs" />
     <Compile Include="Entity\IBaseBusinessQuery.cs" />
     <Compile Include="Entity\IBaseOperation.cs" />
+    <Compile Include="Entity\IPageList.cs" />
+    <Compile Include="Entity\PageList.cs" />
     <Compile Include="Entity\ResultObject.cs" />
     <Compile Include="Entity\ResultStatus.cs" />
+    <Compile Include="Extensions\QueryableExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Entity\EntityBase.cs" />
     <Compile Include="Entity\EntityDatabase.cs" />

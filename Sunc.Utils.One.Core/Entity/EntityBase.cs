@@ -1,5 +1,4 @@
-﻿using Sunc.Utils.Core.Entity;
-using Sunc.Utils.One.Core.Utils;
+﻿using Sunc.Utils.One.Core.Utils;
 using System;
 using System.Collections.Generic;
 using System.Linq;
