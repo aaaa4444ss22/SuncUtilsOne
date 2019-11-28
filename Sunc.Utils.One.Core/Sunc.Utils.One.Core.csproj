@@ -54,6 +54,7 @@
     <Compile Include="Entity\EntityResult.cs" />
     <Compile Include="Entity\IBaseBusinessQuery.cs" />
     <Compile Include="Entity\IBaseOperation.cs" />
+    <Compile Include="Entity\IBasePageList.cs" />
     <Compile Include="Entity\IPageList.cs" />
     <Compile Include="Entity\PageList.cs" />
     <Compile Include="Entity\ResultObject.cs" />
